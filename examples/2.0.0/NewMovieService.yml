@@ -39,7 +39,7 @@ channels:
 
 components:
   messages:
-    lightMeasured:
+    registerMovie:
       name: registerMovie
       title: New Movie Registration
       summary: Inform about a new Movie Release
@@ -49,7 +49,7 @@ components:
       payload:
         $ref: "#/components/schemas/registerMoviePayload"
 
-  schemas:
+   schemas:
     registerMoviePayload:
       description: New Movie Release payload. Schema based on file netflix_titles.csv
       type: object
