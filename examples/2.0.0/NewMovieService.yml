@@ -3,11 +3,12 @@ id: urn:com:notflix:newMovieService
 info:
   title: NewMovieService API
   version: '1.0.0'
-  description: The Notflix NewMovieService API allows movie producers to publish details of new movie releases
+  description: |
+    The Notflix NewMovieService API allows movie producers to publish details of new movie releases
 
-### Features:
-* Submit new movie information to Notflix
-* Notify Notflix subscribers of a new release
+    ### Features:
+      * Submit new movie information to Notflix
+      * Notify Notflix subscribers of a new release
   termsOfService: https://www.notflix.com/termsofservice
   contact:
       name: API Support
