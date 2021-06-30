@@ -5,10 +5,9 @@ info:
   version: '1.0.0'
   description: The Notflix NewMovieService API allows movie producers to publish details of new movie releases
 
-    ### Features:
-
-    * Submit new movie information to Notflix
-    * Notify Notflix subscribers of a new release
+### Features:
+* Submit new movie information to Notflix
+* Notify Notflix subscribers of a new release
   termsOfService: https://www.notflix.com/termsofservice
   contact:
       name: API Support
@@ -99,7 +98,6 @@ components:
       type: string
       format: date-time
       description: Date and time when the message was sent.
-
   messageTraits:
     commonHeaders:
       headers:
