@@ -49,7 +49,7 @@ components:
       payload:
         $ref: "#/components/schemas/registerMoviePayload"
 
-   schemas:
+  schemas:
     registerMoviePayload:
       description: New Movie Release payload. Schema based on file netflix_titles.csv
       type: object
