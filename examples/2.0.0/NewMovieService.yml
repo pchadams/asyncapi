@@ -29,7 +29,7 @@ defaultContentType: application/json
 channels:
   moviesRegistered:
     description: The Kafka topic on which new movie information may be produced and consumed.
-     publish:
+    publish:
       summary: Inform about new Movies
       operationId: registerMovie
       traits:
